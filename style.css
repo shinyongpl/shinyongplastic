@@ -1,0 +1,16 @@
+
+/* Simple clean styling; uses system fonts and Bootstrap for layout */
+:root{--brand:#111827;--accent:#2563eb;}
+html,body{height:100%;}
+body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; color:#1f2937;}
+.navbar-brand strong{letter-spacing:0.5px;}
+.hero{background:linear-gradient(180deg,#f3f4f6, #fff); padding:96px 0;}
+.hero h1{font-weight:800;}
+.hero p.lead{max-width:720px}
+.section{padding:64px 0;}
+footer{border-top:1px solid #e5e7eb; padding:24px 0; font-size:14px; color:#6b7280;}
+.card-title{font-weight:700;}
+.badge{font-size:0.75rem;}
+.small-muted{font-size:0.9rem;color:#6b7280}
+/* Make the sticky header not hide anchor targets */
+:target::before{content:""; display:block; height:80px; margin:-80px 0 0;}
